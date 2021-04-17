@@ -1,0 +1,25 @@
+{
+  "name": "scaffolding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.888.0",
+    "serverless": "^2.35.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.75",
+    "aws-lambda": "^1.0.6",
+    "serverless-localstack": "^0.4.30",
+    "serverless-offline": "^6.9.0",
+    "serverless-offline-sqs": "^4.1.1",
+    "serverless-plugin-typescript": "^1.1.9"
+  }
+}
